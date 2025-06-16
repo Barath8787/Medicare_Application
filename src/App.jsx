@@ -16,7 +16,7 @@ import Notification from './Pages/Caretaker/Notification/Notification';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Medicare_Application">
       <Routes>
         <Route path="/" element={<Signup />} />
         <Route path="/login" element={<Login />} />
