@@ -1,0 +1,49 @@
+.my-calendar{
+     border: none;
+  box-shadow: none; /* Optional: removes any shadow */
+}
+.calender_over{
+    margin: 10px 100px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+}
+.cal_contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+.cal-datas{
+    height: 300px;
+    width: 50%;
+    padding: 20px;
+
+}
+.cal-datas span{
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0px ;
+    gap: 10px;
+    background: #f9fafb;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 15px;
+}
+.cal_icon{
+    margin-right: 10px;
+}
+.cal-datas .dont{
+     display: flex;
+    flex-direction: column;
+    margin: 35px 0px ;
+    gap: 10px;
+    background: #fef2f2;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 15px;
+}
+.cal-datas .do{
+      background: #a6e0e4;
+
+}

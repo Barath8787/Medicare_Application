@@ -1,0 +1,126 @@
+.mediacare_hero{
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.customers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.mediacare_hero h1{
+    font-weight: 700px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.mediacare_hero p{
+    width: 650px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.patient{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 50px;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid gray;
+    line-height: 35px;
+    border-radius: 10px;
+}
+.patient:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.patient p{
+    width: 350px;
+}
+.patient h1{
+        color: rgb(67, 70, 247);
+           font-size: 28px;
+
+}
+.patient button{
+    background-color:  rgb(67, 70, 247);
+    border: none;
+    color: #ffff;
+}
+.patient ul li::marker {
+  color: rgb(67, 70, 247);
+}
+.caretaker{
+     border-radius: 10px;
+     width: 400px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray; 
+     line-height: 35px;
+}
+.caretaker:hover{
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.caretaker p{
+    width: 350px;
+}
+.caretaker h1{
+    color: green;
+    font-size: 28px;
+}
+.caretaker button {
+    background-color:  green;
+    border: none;
+    color: #ffff;
+}
+.caretaker ul li::marker {
+  color: green;
+}
+
+.heading{
+    margin-bottom: 30px;
+}
+.customers button{
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+}
+.icon{
+    font-size: 28px;
+    margin-bottom: 20px;
+    background: skyblue;
+    padding: 17px;
+    border-radius: 8px;
+}
+.heart-icon{
+    padding: 23px;
+    border-radius: 19px;
+    color: antiquewhite;
+    font-size: 35px;
+    background: #2A7B9B;
+background: linear-gradient(142deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+.patient-icon{
+    color: rgb(67, 70, 247);
+    background: skyblue;
+    padding: 23px;
+    border-radius: 17px;
+}
+.caretaker-icon{
+     color: green;
+    background: rgb(184, 245, 127);
+    padding: 23px;
+    border-radius: 17px;
+}

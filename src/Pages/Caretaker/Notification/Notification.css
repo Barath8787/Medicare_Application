@@ -1,0 +1,133 @@
+.notification ,.Email_prev{
+    margin: 10px 100px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.noti_alert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 12px;
+    line-height: 25px;
+}
+/* 
+.noti_alert .button {
+    background: black;
+    height: 18px;
+    width: 35px;
+    border-radius: 20px;
+} */
+
+/* 
+.button span {
+    display: inline-block;
+    background: #ffff;
+    margin-left: 17px;
+    border-radius: 20px;
+    height: 18px;
+    width: 18px;
+} */
+
+.inputs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+}
+
+.inputs input {
+    border: 1px solid gray;
+}
+
+.inputs .input {
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 15px;
+
+}
+
+.input select {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.fake-input {
+    border: 1px solid gray;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.fake-input span{
+    margin-right: 10px;
+}
+.inputs h5 {
+    margin-left: 20px;
+}
+
+.noti_pre {
+    padding: 12px;
+}
+
+.noti_post {
+    margin-top: 12px;
+}
+
+.inputs p {
+    font-size: 12px;
+}
+.prev_cont{
+    background: #F9FAFB;
+    padding: 20px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.prev_final{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.prev_final button{
+    background: green;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #ffffff;
+}
+/* for toggel */
+.toggel{
+    height: 30px;
+    width: 40px;
+    display: flex;
+}
+.toggel .button{
+    background: #d2d2d2;
+    width: 100px;
+    height: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.button::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+input:checked + .button{
+    background: #121212;
+}
+input:checked + .button::before{
+    transform: translateX(20px);
+}
+.toggel input{
+    display: none;
+}
