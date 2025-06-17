@@ -305,7 +305,7 @@
 
     .patient_bottom {
         flex-direction: column;
-        margin: 10px 30px;
+        margin: 10px 17px;
         width: 100%;
     }
 
@@ -333,6 +333,8 @@
 }
 .medi_left .num {
     margin-right: 5px;
+    border-radius: 50px;
+
 }
 
 /* uploa */
@@ -381,5 +383,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.mark_taken {
+    font-size: 18px;
+    font-weight: 500;
 }
 }
