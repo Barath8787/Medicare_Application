@@ -305,8 +305,8 @@
 
     .patient_bottom {
         flex-direction: column;
-        margin: 10px 17px;
-        width: 100%;
+        margin: 10px 7%;
+        width: 95%;
     }
 
     .bottom-left {
