@@ -124,3 +124,44 @@ background: linear-gradient(142deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133,
     padding: 23px;
     border-radius: 17px;
 }
+
+/*  */
+@media (max-width:768px){
+    .customers{
+    flex-direction: column;
+    justify-content: center;
+    /* overflow-x: hidden; */
+}
+.patient{
+    margin: 20px 50px;
+    width: 300px;
+    padding: 10px;
+    line-height: 29px;
+}
+
+.patient p{
+    width: 270px;
+}
+.caretaker{
+     width: 300px;
+    padding: 13px ;
+    border: 1px solid gray; 
+     line-height: 29px;
+}
+.caretaker p{
+    width: 270px;
+}
+.mediacare_hero{
+    margin: 30px 20px;
+    padding: 10px;
+text-align: center;
+}
+.mediacare_hero p{
+    width: 300px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+}

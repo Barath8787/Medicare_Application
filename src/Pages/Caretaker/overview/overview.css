@@ -101,3 +101,72 @@ font-size: 13px;
 Link{
     text-decoration: none;
 }
+
+
+
+
+/* responsive */
+@media (max-width:768px){
+
+    
+.overview_top {
+    display: flex;
+    margin: 10px 20px;
+   
+    flex-direction: column;
+    
+}
+
+.Overview_left {
+    width: 100%;
+}
+
+.overview_right {
+    width: 100%;
+    border-radius: 10px;
+    background: #ffffff;
+   margin-top: 10px;
+   padding-top: 10px;
+}
+.left_title{
+    display: flex;
+     font-size: 20px;
+  
+}
+.Overview_left .content {
+    font-size: 10px;
+}
+.cont-left{
+    margin: 60px 12px;
+}
+.cont-right{
+padding: 3px 8px;
+font-size: 10px;
+}
+.overview_right h1{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.action{
+gap: 10px;
+}
+ .action span{
+    gap: 25px;
+    font-size: 13px;
+
+}
+.overview_bottom{
+margin: 10px 10px;
+font-size: 11px;
+text-align: center;
+}
+
+.line{
+    height: 10px;
+}
+.line hr{
+    height: 9px;
+}
+
+}

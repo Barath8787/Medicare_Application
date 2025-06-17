@@ -45,3 +45,25 @@
     background: #EFFAF8;
     padding: 5px;
 }
+/* responsive */
+@media (max-width:768px) {
+    
+.Activity{
+    margin: 0px 10px;
+    padding: 12px;
+}.cont{
+    font-size: 10px;
+}
+.left{
+    gap: 8px;
+}
+
+.left .tick{
+padding: 10px;
+}
+
+.right span{
+    padding: 2px 3px;
+    font-size: 8px;
+}    
+}

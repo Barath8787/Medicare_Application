@@ -7,7 +7,7 @@ const CalendarComponent = ({ date, setDate }) => {
   
 
   return (
-    <div>
+    <div className='calendder'>
       <Calendar  onChange={setDate} value={date}  />
       {/* <p>Selected date: {props.date.toDateString()}</p> */}
     </div>

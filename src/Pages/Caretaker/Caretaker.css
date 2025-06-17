@@ -110,3 +110,63 @@ border-radius: 12px;
 .active{
     background-color: #ffffff;
 }
+
+@media (max-width:768px) {
+.header_right .user-icon {
+    font-size: 10px;
+}
+.header_right button {
+    padding: 4px;
+    font-size: 8px;
+    gap: 2px;
+
+}
+
+/* hero */
+.caretaker_hero {
+    margin: 20px 10px;
+    padding: 20px 12px;
+}
+.hero_top {
+    gap: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+.hero_top .user-icon {
+    padding: 9px;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+
+/* bottom */
+
+
+.category{
+    display: flex;
+    background: #f1f5f9;
+    margin: 20px 100px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding:0px 8px;
+}
+
+.hero_bottom {
+    gap: 20px;
+}
+.hero_bottom div{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+   padding: 15px 60px;
+   font-size: 10px;
+   width: 100%;
+}
+.category{
+    margin: 4px 3px;
+    gap: 2px;
+    font-size: 8px;
+    padding:0px 5px;
+}
+
+}

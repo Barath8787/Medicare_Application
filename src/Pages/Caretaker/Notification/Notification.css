@@ -131,3 +131,39 @@ input:checked + .button::before{
 .toggel input{
     display: none;
 }
+
+
+
+/* response */
+@media (max-width:768px){
+   .notification ,.Email_prev{
+    margin: 10px 10px;
+    font-size: 12px;
+}
+
+
+
+
+.inputs {
+    margin-top: 15px;
+}
+
+
+
+/* for toggel */
+.toggel{
+    height: 10px;
+    width: 35px;
+    display: flex;
+    margin-left: 20px;
+}
+.toggel .button{
+    width: 100px;
+    height: 15px;
+}
+.button::before{
+    width: 15px;
+    height: 15px;
+}
+
+}
